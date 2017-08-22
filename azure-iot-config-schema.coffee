@@ -4,7 +4,7 @@ module.exports = {
   title: "Azure IoT Hub plugin"
   type: "object"
   properties:
-    option1:
+    azureIoTHub:
       description: "Azure IoT Hub Connection string"
       type: "string"
       default: "HostName=<YourHub>.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<Your Shared Access Key>"
