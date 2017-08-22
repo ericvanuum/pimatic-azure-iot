@@ -1,11 +1,11 @@
 # #my-plugin configuration options
 # Declare your config option for your plugin here. 
 module.exports = {
-  title: "my plugin config options"
+  title: "Azure IoT Hub plugin"
   type: "object"
   properties:
     option1:
-      description: "Some option"
+      description: "Azure IoT Hub Connection string"
       type: "string"
-      default: "foo"
+      default: "HostName=<YourHub>.azure-devices.net;SharedAccessKeyName=iothubowner;SharedAccessKey=<Your Shared Access Key>"
 }
