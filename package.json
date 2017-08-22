@@ -1,24 +1,24 @@
-{ "name": "pimatic-plugin-template",
-  "description": "The plugin description",
-  "author": "Your Name <you@example.com> (http://your-website)",
-  "main": "my-plugin",
+{ "name": "pimatic-azure-iot",
+  "description": "The Azure IoT Hub plugin",
+  "author": "Eric van Uum",
+  "main": "azure-iot",
   "files": [
-    "my-plugin.coffee",
+    "azure-iot.coffee",
     "README.md",
-    "my-plugin-config-schema.coffee"
+    "azure-iot-config-schema.coffee"
   ],
   "version": "0.8.0",
-  "homepage": "http://your-plugin-website",
+  "homepage": "https://github.com/ericvanuum/pimatic-azure-iot",
   "private": true,
   "repository": {
     "type": "git",
-    "url": "git://github.com/pimatic/pimatic-plugin-template.git"
+    "url": "git://github.com/ericvanuum/pimatic-azure-iot.git"
   },
-  "configSchema": "my-plugin-config-schema.coffee",
+  "configSchema": "azure-iot-config-schema.coffee",
   "dependencies": {
   },
   "peerDependencies": {
-    "pimatic": "0.8.*"
+    "pimatic": ">0.8.*"
   },
   "engines": {
     "node": ">0.8.x",
